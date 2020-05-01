@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <title>acessibilidade.gov.pt - Ferramentas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/about.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,700&amp;display=swap" rel="stylesheet">
+  <link href="ama-icons/styles.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+  <a id="jump_main" class="sr-only sr-only-focusable" href="#main">Saltar para o conteúdo principal da página</a>
+  <section id="cookies_bar">
+    <h2 class="sr-only">Cookies</h2>
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-block">
+            <p>Este website utiliza cookies. Ao continuar a navegação está a aceitar a sua utilização.</p>
+            <p class="d-none d-lg-block">Caso pretenda saber mais, consulte a nossa <a href="#privacy_policy">política de privacidade</a>.</p>
+        </div>
+        <div class="d-flex justify-content-between align-items-center" id="cookies_buttons">
+            <button class="btn_cookies" type="button">
+                  Sim, aceito
+                  <span aria-hidden="true" class="icon-arrow-bullets"></span>
+            </button>
+            <button class="btn_no_cookies" type="button">
+              Não, não aceito 
+            </button>
+        </div>
+        <div class="d-block d-lg-none">
+            <p>Caso pretenda saber mais, consulte a nossa <a href="#privacy_policy">política de privacidade</a>.</p>
+        </div>
+    </div>
+  </section>
+  
+  <section id="top-bar">
+    <div class="container d-flex justify-content-between">
+      <div class="top-bar-left d-inline-flex">
+        <button class="d-flex justify-content-start align-items-center" id="btn_experience_menu" aria-expanded="false" type="button">
+            <span aria-hidden="true" class="icon-ed-menu-dots icon"></span>
+            <span class="d-inline-block">Uma ferramenta do portal <br class="d-block d-sm-none"/><span class="bold">experiencia-digital.gov.pt</span></span>
+            <span aria-hidden="true" class="icon-arrow-drop icon"></span>
+        </button>
+      </div>
+      <div class="top-bar-right">
+        <nav class="d-none d-lg-flex justify-content-end" aria-label="Menu de opções de visualização de conteúdos">   
+          <ul class="d-flex justify-content-end">
+            <li class="d-flex align-items-center" id="btn_dark_mode">
+              <a href="#">Modo escuro<span aria-hidden="true" class="icon-dark icon"></span></a>
+            </li>
+            <li class="d-flex align-items-center" id="btn_english_version" lang="en">
+              <a href="#"><em lang="en">In English</em><span aria-hidden="true" class="icon-globe-language icon"></span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+  
+  <section id="top-bar2">
+    <div class="container">
+      <div class="d-flex justify-content-between">
+        <div class="d-flex title" id="site_title">
+        </div>
+        <div class="d-flex align-items-end justify-content-end d-lg-none" id="open_small_menu">
+            <button type="button" aria-expanded="false"><span class="icon-hamburguer-menu-round icon" aria-hidden="true"></span><span class="sr-only">Abrir menu de navegação</span></button>
+        </div>
+        <div class="d-lg-flex d-none title_description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. 
+        </div>
+      </div>
+      <div class="d-lg-none title_description" id="title_description_small">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. 
+      </div>
+    </div>
+  </section>
+
+  <section id="navbar">
+    <div class="container d-lg-flex justify-content-between d-none">
+      <nav class="navbar navbar-expand-sm d-flex no-gutters" aria-label="Menu principal do acessibilidade.gov.pt">
+        <ul class="navbar-nav p-2">
+          <li class="nav-item" id="nav_index">
+            <a class="nav-link" href="index.php.html">Início</a>
+          </li>
+          <li class="nav-item" id="nav_about">
+            <a class="nav-link" href="about.php.html">Quem Somos</a>
+          </li>
+          <li class="nav-item" id="nav_tools">
+            <a class="nav-link" href="tools.php.html">Ferramentas</a>
+          </li>
+          <li class="nav-item" id="nav_publications">
+            <a class="nav-link" href="publications.php.html">Publicações</a>
+          </li>
+          <li class="nav-item" id="nav_tutorials">
+            <a class="nav-link" href="tutorials.php.html">Tutoriais</a>
+          </li>
+          <li class="nav-item" id="nav_blogue">
+            <a class="nav-link" href="blogue.php.html">Blogue</a>
+          </li>
+          <li class="nav-item" id="nav_contact">
+            <a class="nav-link" href="contact.php.html">Contactos</a>
+          </li>
+        </ul> 
+      </nav>
+      <form class="ml-auto p-2" id="search_form" method="post" role="search">
+        <div class="input-group">
+          <label class="sr-only" id="search_label" for="search">Pesquisar</label>
+          <input class="form-control mr-sm-2" type="text" id="search" placeholder="Pesquisa">
+          <button type="submit"><span class="icon-search icon" aria-label="efetuar pesquisa" role="image"></span></button>
+        </div>
+    </form>
+  </div>
+  </section>
+
+
+  <section id="small_menu">
+    <div class="container">
+      <div class="d-flex justify-content-between no-gutters align-items-start" id="small_menu_top">
+        <div class="d-flex title" id="site_title_small">
+          <!--h1 class="title d-block"><a href="index.php"><span class="bold">acessibilidade<br class="d-sm-none d-block"></span>.gov.pt</a></h1-->
+        </div>
+        <div class="d-flex justify-content-end align-items-end">
+          <div class="d-flex align-items-center justify-content-end" id="close_small_menu">
+            <button aria-expanded="true" type="button"><span class="icon-close-round icon" aria-hidden="true"></span><span class="sr-only">Fechar menu de navegação</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column">
+        <div class="p-2 d-flex justify-content-start align-items-center search_div">
+          <form class="p-2" id="search_form_small" method="post" role="search">
+            <div class="input-group">
+              <label class="sr-only" id="search_label_small" for="search_small">Pesquisar</label>
+              <input class="form-control mr-sm-2" type="text" id="search_small" placeholder="Pesquisa">
+              <button type="submit"><span class="icon-search icon" aria-label="efetuar pesquisa" role="image"></span></button>
+            </div>
+          </form>
+        </div>
+
+        <nav aria-label="Menu principal do acessibilidade.gov.pt">
+          <ul>
+            <li class="p-2 d-flex">
+              <a href="index.php.html"><div id="nav_small_index" class="link d-flex align-items-center">Início</div></a>
+            </li>
+            <li class="p-2 d-flex">
+              <a href="about.php.html"><div id="nav_small_about" class="link d-flex align-items-center">Quem Somos</div></a>
+            </li>
+            <li class="p-2 d-flex">
+              <a href="tools.php.html"><div id="nav_small_tools" class="link d-flex align-items-center">Ferramentas</div></a>
+            </li>
+            <li class="p-2 d-flex">
+              <a href="publications.php.html"><div id="nav_small_publications" class="link d-flex align-items-center">Publicações</div></a>
+            </li>
+            <li class="p-2 d-flex">
+              <a href="tutorials.php.html"><div id="nav_small_tutorials" class="link d-flex align-items-center">Tutoriais</div></a>
+            </li>
+            <li class="p-2 d-flex">
+              <a href="blogue.php.html"><div id="nav_small_blogue" class="link d-flex align-items-center">Blogue</div></a>
+            </li>
+            <li class="p-2 d-flex">
+              <a href="contact.php.html"><div id="nav_small_contact" class="link d-flex align-items-center">Contactos</div></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <nav>
+        <ul class="d-flex d-md-flex no-gutters align-items-center small_bottom">
+          <li class="d-flex align-items-center">
+              <a class="d-flex align-items-center" href="#">
+                <span>Ver modo escuro</span>
+                <span aria-hidden="true" class="icon-dark icon"></span>
+              </a>
+          </li>
+          <li class="d-flex align-items-center" id="link_lang">
+              <a class="d-flex align-items-center" href="#">
+                <span><em lang="en">In english</em></span>
+                <span aria-hidden="true" class="icon-globe-language icon"></span>
+              </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+
+  <section id="experience_menu">
+    <div class="container">
+      <div class="row no-gutters" id="experience_top">
+          <div class="col-12 col-lg-5 d-inline-flex align-items-start" id="experience_menu_title">
+            <h1 class="d-block"><span class="bold">experiencia-digital</span><br class="d-block d-sm-none d-lg-block"/>.gov.pt</h1>
+            <div class="d-sm-none d-inline-flex"><div aria-hidden="true" class="icon-arrow-drop icon"></div></div>
+          </div>
+          <div class="col-12 col-lg-7" id="experience_menu_desc">
+            <div class="row no-gutters">
+                <div class="col-12 col-md-8">
+                  <p>O portal Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempo incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-end">
+                <button class="btn_info" type="button"  title="experiencia-digital.gov.pt">Visite o portal</button>
+                </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="row no-gutters" id="experience_links">
+        <div class="col-12 col-lg-4" id="usability_links">
+          <div class="d-inline-flex align-items-start" data-target="#usability-links">
+            <h2 class="d-lg-block d-none"><a href="https://usabilidade.gov.pt/" target="_blank" class="accessibility_links_title bold"><span class="bold">usabilidade</span>.gov.pt <span class="sr-only">hiperligação externa</span></a></h2>
+            <h2 class="d-lg-none d-block accessibility_links_title"><span class="bold">usabilidade</span><br class="d-block d-sm-none break-title"/>.gov.pt</h2>
+            <div class="d-lg-none d-inline-flex"><div aria-hidden="true" class="icon-arrow-drop icon"></div></div>
+          </div>
+          <div class="collapse" id="usability-links">
+            <p>O portal Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempo incididunt ut labore et dolore magna aliqua.</p>
+            <ul class="list-group no-gutters">
+              <li class="list-group-item border-0 d-flex align-items-center">
+                <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                <div class="list_link">
+                  <a class="d-block" href="#">guia de usabilidade</a>
+                </div>
+                <!--div class="arrow-links">
+                  <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">guia de usabilidade</span></a></div>
+                </div-->
+              </li>
+              <li class="list-group-item border-0 d-flex align-items-center">
+                <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                <div class="list_link">
+                  <a class="d-block" href="#">lista de verificação</a>
+                </div>
+                <!--div class="arrow-links">
+                  <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">lista de verificação</span></a></div>
+                </div-->
+              </li>
+              <li class="list-group-item border-0 d-flex align-items-center">
+                <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                <div class="list_link">
+                  <a class="d-block" href="#">componentes</a>
+                </div>
+                <!--div class="arrow-links">
+                  <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">componentes</span></a></div>
+                </div-->
+              </li>
+              <li class="list-group-item border-0 d-flex align-items-center">
+                <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                <div class="list_link">
+                  <a class="d-block" href="#">templates</a>
+                </div>
+                <!--div class="arrow-links">
+                  <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">templates</span></a></div>
+                </div-->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4" id="accessibility_links">
+          <div class="d-inline-flex align-items-start" data-target="#accessibility-links">
+            <h2 class="d-lg-block d-none"><a href="#" class="accessibility_links_title"><span class="bold">acessibilidade</span><br class="d-block d-sm-none  break-title"/>.gov.pt</a></h2>
+            <h2 class="d-lg-none d-block accessibility_links_title"><span class="bold">acessibilidade</span><br class="d-block d-sm-none break-title"/>.gov.pt</h2>
+            <div class="d-lg-none d-inline-flex"><div aria-hidden="true" class="icon-arrow-drop icon"></div></div>
+          </div>
+          <div class="collapse" id="accessibility-links">
+            <p>O portal Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempo incididunt ut labore et dolore magna aliqua.</p>
+            <ul class="list-group no-gutters">
+              <li class="list-group-item border-0 d-flex align-items-center">
+                <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                <div class="list_link">
+                  <a class="d-block" href="#">observatório de acessibilidade web</a>
+                </div>
+                <!--div class="arrow-links">
+                  <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">observatório de acessibilidade web</span></a></div>
+                </div-->
+              </li>
+              <li class="list-group-item border-0 d-flex align-items-center">
+                <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                <div class="list_link">
+                  <a class="d-block" href="#">accessmonitor</a>
+                </div>
+                <!--div class="arrow-links">
+                  <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">accessmonitor</span></a></div>
+                </div-->
+              </li>
+              <li class="list-group-item border-0 d-flex align-items-center">
+                <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                <div class="list_link">
+                  <a class="d-block" href="#">studymonitor</a>
+                </div>
+                <!--div class="arrow-links">
+                  <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">studymonitor</span></a></div>
+                </div-->
+              </li>
+              <li class="list-group-item border-0 d-flex align-items-center">
+                <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                <div class="list_link">
+                  <a class="d-block" href="#">mymonitor</a>
+                </div>
+                <!--div class="arrow-links">
+                  <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">mymonitor</span></a></div>
+                </div-->
+              </li>
+              <li class="list-group-item border-0 d-flex align-items-center">
+                <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                <div class="list_link">
+                  <a class="d-block" href="#">tutoriais</a>
+                </div>
+                <!--div class="arrow-links">
+                  <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">tutoriais</span></a></div>
+                </div-->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4" id="badge_links">
+            <div class="d-inline-flex align-items-start" data-target="#badge-links">
+              <h2 class="d-lg-block d-none"><a href="https://selo.acessibilidade.gov.pt/" target="_blank" class="accessibility_links_title"><span class="bold">selo.acessibilidade</span><br class="d-block d-sm-none break-title"/>.gov.pt <span class="sr-only">hiperligação externa</span></a></h2>
+              <h2 class="d-lg-none d-block accessibility_links_title"><span class="bold">selo</span><br class="d-block d-sm-none break-title"/>.gov.pt</h2>
+            <div class="d-lg-none d-inline-flex"><div aria-hidden="true" class="icon-arrow-drop icon"></div></div>
+            </div>
+            <div class="collapse" id="badge-links">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempo incididunt ut labore et dolore magna aliqua.</p>
+              <ul class="list-group no-gutters">
+                <li class="list-group-item border-0 d-flex align-items-center">
+                  <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                  <div class="list_link">
+                    <a class="d-block" href="#">como obter o selo</a>
+                  </div>
+                  <!--div class="arrow-links">
+                    <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">como obter o selo</span></a></div>
+                  </div-->
+                </li>
+                <li class="list-group-item border-0 d-flex align-items-center">
+                  <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                  <div class="list_link">
+                    <a class="d-block" href="#">kit de apoio</a>
+                  </div>
+                  <!--div class="arrow-links">
+                    <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">kit de apoio</span></a></div>
+                  </div-->
+                </li>
+                <li class="list-group-item border-0 d-flex align-items-center">
+                  <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                  <div class="list_link">
+                    <a class="d-block" href="#">candidatura</a>
+                  </div>
+                  <!--div class="arrow-links">
+                    <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">candidatura</span></a></div>
+                  </div-->
+                </li>
+                <li class="list-group-item border-0 d-flex align-items-center">
+                  <div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+                  <div class="list_link">
+                    <a class="d-block" href="#">declaração de acessibilidade e usabilidade</a>
+                  </div>
+                  <!--div class="arrow-links">
+                    <div class="anchor_before"><a href="#" class="accessibility_links_link"><span class="link">declaração de acessibilidade e usabilidade</span></a></div>
+                  </div-->
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</header>
+	<main id="main">
+		<section id="page">
+			<div class="container">
+				<!--div class="d-sm-flex d-none no-gutters" id="breadcrumb_large">
+					<div class="d-flex"><a href="index.php">Início</a></div>
+					<div class="d-flex"><span>&nbsp;> Ferramentas</span></div>
+				</div-->
+
+				<nav class="d-sm-flex d-none" aria-label="você está aqui">
+                    <ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="index.php.html">Início</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">
+							<span aria-hidden="true" class="breadcrumb_arrow"></span>
+							Ferramentas
+						</li>
+                    </ol>
+				</nav>
+
+				<div class="d-block d-sm-none" id="breadcrumbs_mobile">
+					<p class="d-block w-100">Você está aqui:</p>
+					<div class="dropdown d-block w-100">
+						<button class="btn dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  type="button">
+							<span>Ferramentas</span>
+							<span aria-hidden="true" class="icon-arrow-drop"></span>
+						</button>
+						<ul class="dropdown-menu breadcrumbs" aria-labelledby="dropdownMenuButton">
+							<li><a class="dropdown-item item-blue" href="index.php.html">Início</a></li>
+							<li><a class="dropdown-item" href="#">&nbsp;&nbsp;&nbsp;Ferramentas</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="row no-gutters">
+					<div class="col-lg-8 col-12">
+						<h1 class="page_title">Ferramentas</h1>
+						<p class="page_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					</div>
+					<div class="col-lg-4 d-none d-lg-flex justify-content-center">
+						<div aria-hidden="true" class="icon-xl-tools icon"></div>
+					</div>
+				</div>
+				<hr aria-hidden="true"/>
+			</div>
+		</section>
+		
+
+		<section id="items_cards">
+			<div class="container">
+				<div class="card-deck">
+					<h2 class="sr-only">Ferramentas em destaque</h2>
+					<div class="card">
+						<div class="card-body row">
+						<div class="col-lg-12 col-sm-9 col-12">
+							<p class="card-text">Validadores Web</p>
+							<h3 class="card-title"><a href="#"><em lang="en">Contrast Ratio Calculator</em></a></h3>
+						</div>
+						<div class="col-lg-12 col-sm-3 col-12 d-flex align-items-end icons_tutorials"><div aria-hidden="true" class="icon-xl-validations"></div></div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body row">
+						<div class="col-lg-12 col-sm-9 col-12 ">
+							<p class="card-text">Agentes de Utilizador</p>
+							<h3 class="card-title"><a href="#">VIP <abbr title="Portable Document Format" lang="en">PDF</abbr>  - leitor de <abbr title="Portable Document Format" lang="en">PDF</abbr></a></h3>
+						</div>
+						<div class="col-lg-12 col-sm-3 col-12 d-flex align-items-end icons_tutorials"><div aria-hidden="true" class="icon-xl-forms"></div></div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body row">
+						<div class="col-lg-12 col-sm-9 col-12">
+							<p class="card-text">Ferramentas de Autor</p>
+							<h3 class="card-title"><a href="#"><em lang="en">Java Accessibility Guidelines</em></a></h3>
+						</div>
+						<div class="col-lg-12 col-sm-3 col-12 d-flex align-items-end icons_tutorials"><div aria-hidden="true" class="icon-xl-code"></div></div>
+						</div>
+					</div>  
+				</div>
+			</div>
+		</section>
+
+		<section id="tools_list">
+			<h2 class="sr-only">Outras Ferramentas</h2>
+			<div class="container">
+				<div class="row no-gutters tools_list">
+					<div class="d-lg-block d-inline-flex justify-content-between tool_category" data-target="#tools_list1">
+						<h3>Validadores Web</h3>
+						<div class="d-lg-none d-flex align-items-start"><div aria-hidden="true" class="icon-arrow-drop"></div></div>
+						<span class="d-lg-block d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+					</div>
+					<div class="row no-gutters w-100" id="tools_list1">
+					<div class="col-12 col-lg-6 left_list">
+						<span class="d-lg-none d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+						<ul class="list-group no-gutters press_list">
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">TotalValidator</em></a>
+									<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr></span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">TotalValidator</em></span></a></div>
+									<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr></span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">AccessMonitor</em></a>
+									<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr>  em português</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">AccessMonitor</em></span></a></div>
+									<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr>  em português</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">SortSite – Accessibility Checker and Validator</em></a>
+									<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr></span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">SortSite – Accessibility Checker and Validator</em></span></a></div>
+									<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr></span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">WAVE</em></a>
+									<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr> - Lorem ipsum dolor si amet</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">WAVE</em></span></a></div>
+									<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr> - Lorem ipsum dolor si amet</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">eXaminator</em></a>
+									<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr> em português, espanhol e inglês</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">eXaminator</em></span></a></div>
+									<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr> em português, espanhol e inglês</span>
+								</div-->
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-lg-6 right_list">
+					<ul class="list-group no-gutters press_list">
+						<li class="list-group-item border-0 d-flex">
+							<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+							<div class="list_link">
+								<a class="d-block" href="#"><em lang="en">aChecker</em></a>
+								<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr> - Lorem ipsum dolor si amet</span>
+							</div>
+							<!--div class="arrow-links">
+								<div class="anchor_before"><a href="#"><span class="link"><em lang="en">aChecker</em></span></a></div>
+								<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr> - Lorem ipsum dolor si amet</span>
+							</div-->
+						</li>
+						<li class="list-group-item border-0 d-flex">
+							<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+							<div class="list_link">
+								<a class="d-block" href="#"><em lang="en">eGovMon</em></a>
+								<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr></span>
+							</div>
+							<!--div class="arrow-links">
+								<div class="anchor_before"><a href="#"><span class="link"><em lang="en">eGovMon</em></span></a></div>
+								<span>Validador de <abbr title="Hypertext Markup Language" lang="en">HTML</abbr></span>
+							</div-->
+						</li>
+						<li class="list-group-item border-0 d-flex">
+							<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+							<div class="list_link">
+								<a class="d-block" href="#"><em lang="en">Contrast Ratio Calculator</em></a>
+								<span>Calculadora de Contraste</span>
+							</div>
+							<!--div class="arrow-links">
+								<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Contrast Ratio Calculator</em></span></a></div>
+								<span>Calculadora de Contraste</span>
+							</div-->
+						</li>
+						<li class="list-group-item border-0 d-flex">
+							<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+							<div class="list_link">
+								<a class="d-block" href="#"><em lang="en">eGovMon</em></a>
+								<span>Validador de <abbr title="Portable Document Format" lang="en">PDF</abbr></span>
+							</div>
+							<!--div class="arrow-links">
+								<div class="anchor_before"><a href="#"><span class="link"><em lang="en">eGovMon</em></span></a></div>
+								<span>Validador de <abbr title="Portable Document Format" lang="en">PDF</abbr></span>
+							</div-->
+						</li>
+						</ul>
+					</div>
+					</div>
+				</div>
+
+				<div class="row no-gutters tools_list">
+					<div class="d-lg-block d-inline-flex justify-content-between tool_category" data-target="#tools_list2">
+						<h3>Ferramentas de autor</h3>
+						<div class="d-lg-none d-flex align-items-start"><div aria-hidden="true" class="icon-arrow-drop"></div></div>
+						<span class="d-lg-block d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+					</div>
+					<div class="row no-gutters w-100" id="tools_list2">
+					<div class="col-12 col-lg-6 left_list">
+						<span class="d-lg-none d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+						<ul class="list-group no-gutters press_list">
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Dreamweaver</em> e outros produtos de edição Adobe</a>
+									<span>Ferramentas de Edição Web</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Dreamweaver</em> e outros produtos de edição Adobe</span></a></div>
+									<span>Ferramentas de Edição Web</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#">Ler conteúdos <abbr title="Portable Document Format" lang="en">PDF</abbr></a>
+									<span>Documentos da Adobe sobre Acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link">Ler conteúdos <abbr title="Portable Document Format" lang="en">PDF</abbr></span></a></div>
+									<span>Documentos da Adobe sobre Acessibilidade</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#">Criar conteúdos <abbr title="Portable Document Format" lang="en">PDF</abbr> acessíveis</a>
+									<span>Documentos da Adobe sobre Acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link">Criar conteúdos <abbr title="Portable Document Format" lang="en">PDF</abbr> acessíveis</span></a></div>
+									<span>Documentos da Adobe sobre Acessibilidade</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#">Converter conteúdos <abbr title="Portable Document Format" lang="en">PDF</abbr></a>
+									<span>Documentos da Adobe sobre Acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link">Converter conteúdos <abbr title="Portable Document Format" lang="en">PDF</abbr></span></a></div>
+									<span>Documentos da Adobe sobre Acessibilidade</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Adobe Acrobat Accessibility Techniques</em></a>
+									<span>Documentos da Adobe sobre Acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Adobe Acrobat Accessibility Techniques</em></span></a></div>
+									<span>Documentos da Adobe sobre Acessibilidade</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">See the Oracle White Paper – Accessibility in Oracle Forms Applications.</em></a>
+									<span>Oracle e acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">See the Oracle White Paper – Accessibility in Oracle Forms Applications.</em></span></a></div>
+									<span>Oracle e acessibilidade</span>
+								</div-->
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-lg-6 right_list">
+						<ul class="list-group no-gutters press_list">
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Java Documentation and Specs</em></a>
+									<span>JavaScripts e acessibilidade - Lorem ipsum dolor si amet</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Java Documentation and Specs</em></span></a></div>
+									<span>JavaScripts e acessibilidade - Lorem ipsum dolor si amet</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Java Accessibility Quick Tips</em></a>
+									<span>JavaScripts e acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Java Accessibility Quick Tips</em></span></a></div>
+									<span>JavaScripts e acessibilidade</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">The Java Tutorial – Accessibility section</em></a>
+									<span>JavaScripts e acessibilidade - Lorem ipsum dolor si amet</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">The Java Tutorial – Accessibility section</em></span></a></div>
+									<span>JavaScripts e acessibilidade - Lorem ipsum dolor si amet</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Java Accessibility Guidelines</em></a>
+									<span>JavaScripts e acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Java Accessibility Guidelines</em></span></a></div>
+									<span>JavaScripts e acessibilidade</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Apple Accessibility</em></a>
+									<span>Apple e acessibilidade - Guias para developers e utilizadores</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Creating Accessible JavaScript</em></span></a></div>
+									<span>Lorem ipsum dolor si amet</span>
+								</div-->
+							</li>
+						</ul>
+					</div>
+					</div>
+				</div>
+
+				<div class="row no-gutters tools_list">
+					<div class="d-lg-block d-inline-flex justify-content-between tool_category" data-target="#tools_list3">
+						<h3>Fabricantes de software/ hardware</h3>
+						<div class="d-lg-none d-flex align-items-start"><div aria-hidden="true" class="icon-arrow-drop"></div></div>
+						<span class="d-lg-block d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+					</div>
+					<div class="row no-gutters w-100" id="tools_list3">
+					<div class="col-12 col-lg-6 left_list">
+						<ul class="list-group no-gutters press_list">
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Apple Accessibility</em></a>
+									<span>Apple e acessibilidade - Guias para developers e utilizadores</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Apple Accessibility</em></span></a></div>
+									<span>Apple e acessibilidade - Guias para developers e utilizadores</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Adobe – Accessibility Resource Center</em></a>
+									<span>Adobe e acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Adobe – Accessibility Resource Center</em></span></a></div>
+									<span>Adobe e acessibilidade</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Google Accessibility</em></a>
+									<span>Google  e acessibilidade - Guias e recursos para autores, parceiros e utilizadores</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Google Accessibility</em></span></a></div>
+									<span>Google  e acessibilidade - Guias e recursos para autores, parceiros e utilizadores</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Microsoft Accessibility – Technology for Everyone</em></a>
+									<span>Microsoft e acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Microsoft Accessibility – Technology for Everyone</em></span></a></div>
+									<span>Microsoft e acessibilidade</span>
+								</div-->
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-lg-6 right_list">
+						<ul class="list-group no-gutters press_list">
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">IBM – Accessibility Center</em></a>
+									<span><abbr title="International Business Machines">IBM</abbr> e acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">IBM – Accessibility Center</em></span></a></div>
+									<span>IBM e acessibilidade</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Oracle Accessibility Program</em></a>
+									<span><em lang="en">Oracle</em> e acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Oracle Accessibility Program</em></span></a></div>
+									<span>Oracle e acessibilidade</span>
+								</div-->
+							</li>
+							<li class="list-group-item border-0 d-flex">
+								<div class="icon-arrow-bullets list_arrow_link" aria-hidden="true"></div>
+								<div class="list_link">
+									<a class="d-block" href="#"><em lang="en">Sun Microsystems Accessibility Program – Opening New Doors Enabling Technologies</em></a>
+									<span><em lang="en">Sun Microsystems</em> e acessibilidade</span>
+								</div>
+								<!--div class="arrow-links">
+									<div class="anchor_before"><a href="#"><span class="link"><em lang="en">Sun Microsystems Accessibility Program – Opening New Doors Enabling Technologies</em></span></a></div>
+									<span>Sun Microsystems e acessibilidade</span>
+								</div-->
+							</li>
+						</ul>
+					</div>
+					</div>
+				</div>
+
+				<!--div class="row no-gutters d-flex justify-content-start">
+					<div id="share">
+						<span>Partilhar</span>
+						<ul class="d-flex">
+							<li>
+								<button aria-label="Partilhar no Facebook" type="button">
+									<span id="fb_icon" aria-hidden="true" class="icon-share-facebook social_icon"></span>
+								</button>
+							</li>
+							<li>
+								<button aria-label="Partilhar no Twitter" type="button">
+									<span id="tw_icon" aria-hidden="true" class="icon-share-twitter social_icon"></span>
+								</button>
+							</li>
+							<li>
+								<button aria-label="Partilhar no Linkedin" type="button">
+									<span id="ln_icon" aria-hidden="true" class="icon-share-linkedin social_icon"></span>
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div-->
+			</div>
+		</section>
+
+		<section id="social_share">
+			<div class="container">
+				<div class="row no-gutters d-flex justify-content-start">
+					<div id="share">
+						<h2>Partilhar</h2>
+						<ul class="d-flex">
+							<li>
+								<button aria-label="Partilhar no Facebook" type="button" role="region">
+									<span id="fb_icon" aria-hidden="true" class="icon-share-facebook social_icon"></span>
+								</button>
+							</li>
+							<li>
+								<button aria-label="Partilhar no Twitter" type="button" role="region">
+									<span id="tw_icon" aria-hidden="true" class="icon-share-twitter social_icon"></span>
+								</button>
+							</li>
+							<li>
+								<button aria-label="Partilhar no Linkedin" type="button" role="region">
+									<span id="ln_icon" aria-hidden="true" class="icon-share-linkedin social_icon"></span>
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<div class="d-lg-block d-none">
+			<section id="change">
+    <div class="container">
+        <div class="row no-gutters changes">
+            <div class="col-lg-9 col-md-9 col-12 order-2 order-2 order-md-1 order-lg-1">
+                <h2 class="d-inline">Faça parte da mudança</h2>
+                <p id="change_description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                <ul class="d-sm-block d-md-flex d-lg-flex no-gutters" id="change_links">
+                    <li class="p-2 d-flex justify-content-start align-items-center">
+                        <div aria-hidden="true" class="icon-arrow-bullets d-flex justify-content-start align-items-center"></div>
+                        <div><a href="#">Designers</a></div>
+                    </li>
+                    <li class="p-2 d-flex justify-content-start align-items-center">
+                        <div aria-hidden="true" class="icon-arrow-bullets d-flex justify-content-start align-items-center"></div>
+                        <div>
+                           <a href="#">Programadores</a>
+                        </div>
+                    </li> 
+                    <li class="p-2 d-flex justify-content-start align-items-center">
+                        <div aria-hidden="true" class="icon-arrow-bullets d-flex justify-content-start align-items-center"></div>
+                        <div>
+                           <a href="#">Decisores</a> 
+                        </div>
+                    </li>
+                </ul> 
+            </div>
+            <div class="col-lg-3 col-md-3 col-12 order-1 order-md-2 order-lg-2 d-flex justify-content-center">
+                <div aria-hidden="true" class="icon-xl-conversation icon"></div>
+            </div>
+        </div>
+    </div>
+</section>		</div>
+		
+		<section id="access" class="d-block">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-lg-6 col-12">
+                <div class="col-12 d-flex d-sm-none align-items-center justify-content-end">
+                    <span class="version">versão beta</span>
+                </div>
+                <div class="d-flex justify-content no-gutters">
+                    <div class="p-2 d-flex">
+                        <div aria-hidden="true" class="icon-check-monitor icon"></div>
+                        <h2><a href="http://accessmonitor.acessibilidade.gov.pt/amp/" target="_blank">AccessMonitor <span class="sr-only">hiperligação externa</span></a></h2>
+                    </div>
+                    <div class="p-2 d-sm-flex d-none align-items-center">
+                        <span class="version">versão beta</span>
+                    </div>
+                </div>
+                <span id="access_description">O validador de práticas de acessibilidade web (WCAG 2.0)</span>
+            </div>
+            
+            <form class="w-100 col-lg-6 col-12 row no-gutters" method="post" id="access_monitor_form">
+                <div class="col-lg-8 col-md-6 col-sm-8 col-12">
+                    <label id="url_label" for="url">Introduza o endereço de uma página:</label>
+                        <div class="input-group">
+                        <input class="form-control mr-sm-2" type="text" id="url" placeholder="www.">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-4 col-12 d-flex">
+                    <button class="btn_access" type="submit">
+                        Validar
+                        <span aria-hidden="true" class="icon-arrow-bullets"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>	</main>
+
+		<footer>
+  <div id="pre_footer">
+    <div class="container">
+        <h2 class="sr-only">Ferramentas, publicações e tutoriais</h2>
+        <div class="row no-gutters">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="d-inline-flex align-items-center" data-target="#recursos">  
+                <h3 class="d-lg-inline-flex d-none"><a href="tools.php.html" class="item-title">Ferramentas</a></h3>
+                <h3 class="d-inline-flex d-lg-none item-title">Ferramentas</h3>
+                <div aria-hidden="true" class="icon-arrow-drop d-lg-none d-inline-flex align-items-start icon"></div>
+              </div>
+              <nav aria-label="lista de ferramentas">
+                <ul id="recursos" class="list-group no-gutters collapse">
+                  <li class="list-group-item border-0">
+                    <a href="tools.php.html" class="items-links">Validadores Web</a>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <a href="tools.php.html" class="items-links">Agentes de Utilizador</a>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <a href="tools.php.html" class="items-links">Ferramentas de Autor</a>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <a href="tools.php.html" class="items-links">Fabricantes de Software/Hardware</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="d-inline-flex align-items-center" data-target="#publicacoes"> 
+                  <h3 class="d-lg-inline-flex d-none"><a href="publications.php.html" class="item-title">Publicações</a></h3>
+                  <h3 class="d-inline-flex d-lg-none item-title">Publicações</h3>
+                  <div aria-hidden="true" class="icon-arrow-drop d-lg-none d-inline-flex align-items-start icon"></div>
+                </div>
+                <nav aria-label="lista de publicações">
+                  <ul id="publicacoes" class="list-group no-gutters collapse">
+                    <li class="list-group-item border-0">
+                      <a href="publications.php.html" class="items-links">Estudos sobre Acessibilidade</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="publications.php.html" class="items-links">Legislação nacional</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="publications.php.html" class="items-links">Documentos de Políticas e Estratégias</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="publications.php.html" class="items-links">Manuais</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="publications.php.html" class="items-links">Livros online</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="publications.php.html" class="items-links">Apontadores para repositórios de publicações e relatórios</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="publications.php.html" class="items-links">Guias de Boas Práticas</a>
+                    </li>
+                  </ul>
+                </nav>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="d-inline-flex align-items-center" data-target="#tutoriais"> 
+                  <h3 class="d-lg-inline-flex d-none"><a href="tutorials.php.html" class="item-title">Tutoriais</a></h3>
+                  <h3 class="d-inline-flex d-lg-none item-title">Tutoriais</h3>
+                  <div aria-hidden="true" class="icon-arrow-drop d-lg-none d-inline-flex align-items-start icon"></div>
+                </div>
+                <nav aria-label="lista de tutoriais">
+                  <ul id="tutoriais" class="list-group no-gutters collapse">
+                    <li class="list-group-item border-0">
+                      <a href="tutorials.php.html" class="items-links">Tutoriais de conteúdo e estrutura</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="tutorials.php.html" class="items-links">Tutoriais sobre <abbr title="Cascading Style Sheets" lang="en">CSS</abbr></a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="tutorials.php.html" class="items-links">Tutoriais sobre Formulários</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="tutorials.php.html" class="items-links">Tutoriais sobre Web Semântica</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="tutorials.php.html" class="items-links">Tutoriais sobre JavaScript</a>
+                    </li>
+                  </ul>
+                </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="d-block">
+            <div class="row no-gutters">
+                <div class="col-sm-12 col-8">
+                  <nav aria-label="Menu de conformidade do acessibilidade.gov.pt"> 
+                    <ul class="d-sm-flex d-block justify-content-center p-3"> 
+                      <li class="d-flex links"><a href="#">Acessibilidade</a></li>
+                      <li class="d-flex links"><a href="#">Política de Privacidade</a></li>
+                      <li class="d-flex links" lang="en"><a href="#"><em lang="en">GitHub</em></a></li> 
+                    </ul> 
+                  </nav> 
+                </div>
+                <div class="col-4 d-flex justify-content-end d-sm-none">
+                  <div><img alt="Selo Prata de Usabilidade e Acessibilidade" src="imgs/selo_small.png" /></div>
+                </div>
+                <div class="col-sm-12 d-flex justify-content-center">
+                  <nav class="d-inline-flex" aria-label="Proprietário e co-financiadores do acessibilidade.gov.pt"> 
+                    <ul class="d-sm-flex justify-content-center d-block">
+                      <li class="d-inline-flex justify-content-center"><img alt="República Portuguesa" src="imgs/republica_PT.png" /></li>
+                      <li class="d-inline-flex justify-content-center"><img alt="AMA – Agência para a Modernização Administrativa I.P." src="imgs/ama.png" /></li>
+                      <li class="d-inline-flex justify-content-center"><img alt="COMPETE 2020 – Programa Operacional Competitividade e Internacionalização" src="imgs/compete_2020.png" /></li>
+                      <li class="d-inline-flex justify-content-center"><img alt="União Europeia – Fundo Europeu de Desenvolvimento Regional" src="imgs/uniao_europeia.png" /></li>
+                      <li class="d-inline-flex justify-content-center"><img alt="Portugal 2020" src="imgs/portugal_2020.png" /></li>
+                    </ul>
+                  </nav>
+                  <div class="d-sm-flex d-none">
+                    <img alt="Selo Prata de Usabilidade e Acessibilidade" src="imgs/selo.png" />
+                  </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center p-3 copyright">
+                <p>© 2020 AMA <span class="d-none d-sm-inline">-</span> <br class="d-block d-sm-none">Agência para a Modernização Administrativa, I. P. Todos os direitos reservados.</p>
+            </div>
+        </div>
+      </div>
+    </footer>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="index.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			app.init();
+			app.shareIcons();
+			app.socialSharing();
+		});		
+	</script>
+
+</body>
+</html>
